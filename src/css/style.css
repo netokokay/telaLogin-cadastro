@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(150deg, rgb(91, 9, 241), rgb(50, 220, 226));
+}
+
+.div-login {
+    background-color: rgb(0, 0, 0, 0.9);
+    position: absolute;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input {
+    padding: 9px;
+    border-radius: 5%;
+    outline: none;
+    font-size: 15px;
+}
+
+#login-button,
+#cadastro-button {
+    background-color: rgb(96, 214, 230);
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#login-button:hover,
+#cadastro-button:hover {
+    background-color: rgb(98, 96, 230);
+    color: white;
+    cursor: pointer;
+}
+
+.div-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 42.35px;
+}
